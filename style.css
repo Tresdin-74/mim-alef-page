@@ -134,3 +134,42 @@ body {
     font-size: 0.9rem;
   }
 }
+.number-form {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
+}
+
+.number-form label {
+  font-size: 0.95rem;
+  color: #d3d3e0;
+}
+
+.number-form input {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  outline: none;
+}
+
+.send-btn {
+  margin-top: 5px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  background: #00e193;
+  color: #0c0f1a;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.send-btn:hover {
+  background: #00ffb0;
+  transform: translateY(-2px);
+}
+
+
